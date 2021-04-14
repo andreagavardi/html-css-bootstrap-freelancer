@@ -11,24 +11,58 @@
 
     <!-- style CSS  -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- FontAwesom  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
 </head>
-<body class="dbg">
+<body class="">
     <header>
-        <div class="container-md">
-            <nav>
-                <div class="row d-flex justify-content-between">
-                    <div class="col-3"></div>
-                    <div class="col-3"></div>
-                </div>
-            </nav>
-        </div>
+       <nav class="navbar navbar-expand-md navbar-dark bg_darkblue ">
+           <div class="container-md">
+               <a class="navbar-brand text-white text-uppercase font-weight-bold" href="#">start bootstrap</a>
+               <button class="navbar-toggler white_border" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                   aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+                  
+           
+               <div class="collapse navbar-collapse text-white justify-content-end" id="navbarTogglerDemo02">
+                   <ul class="navbar-nav  mt-2 mt-lg-0">
+                       <li class="nav-item active">
+                           <a class="nav-link text-white text-uppercase font-weight-bold" href="#">portfolio <span class="sr-only">(current)</span></a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link text-white text-uppercase font-weight-bold" href="#">about</a>
+                       </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white text-uppercase font-weight-bold" href="#">contact</a>
+                    </li>
+                   </ul>
+               </div>
+           </div>
+    </nav>
     </header>
     <main>
-        <div class="jumbotron" class="mt-3">
+        <div class="jumbotron bg_green" class="mt-3">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-8 "></div>
-                    <div class="col-8 d-flex "></div>
+                    <div class="col-8 d-flex justify-content-center">
+                        <div class="avatar">
+                            <img src="./assets/img/avatar.svg" alt="Avatar">
+                        </div>
+                    </div>
+                    <div class="col-8 d-flex justify-content-center">
+                        <div class="jumbo_text text-center">
+                            <h1 class="text-white display-4 text-uppercase font-weight-bold">
+                                start bootstrap
+                            </h1>
+                            <i class="fas fa-star text-white "></i>
+                            <h4 class="text-white text-uppercase">
+                                graphic artist-web designer-illustrator
+                            </h4>
+                        </div>
+                    </div>
                     <div class="col-8 d-flex "></div>
                 </div>
             </div>
