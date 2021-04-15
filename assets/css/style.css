@@ -64,7 +64,28 @@ main
   max-width: 100%;
   border-radius: 5px;
 }
-
+.gallery_item {
+  position: relative;
+}
+#galleria .overlay {
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #1abc9ca1;
+  transition: all 1s;
+}
+#galleria .gallery_item .overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#galleria .gallery_item:hover .overlay {
+  opacity: 1;
+}
 /* contact */
 
 #contact .star::after,
