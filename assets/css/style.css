@@ -102,7 +102,9 @@ main
 .form-group .btn {
   color: white;
 }
-
+.form-group .btn:hover {
+  background-color: #378970;
+}
 /* FOOTER  */
 
 .socials .fab {
